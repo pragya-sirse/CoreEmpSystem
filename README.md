@@ -42,10 +42,10 @@ Create a MySQL database (e.g., coreemp_db).
 
 Update application.properties with your MySQL credentials:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/coreemp_db
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
+- spring.datasource.url=jdbc:mysql://localhost:3306/coreemp_db
+- spring.datasource.username=your_username
+- spring.datasource.password=your_password
+- spring.jpa.hibernate.ddl-auto=update
 
 
 3️⃣ Build and Run
